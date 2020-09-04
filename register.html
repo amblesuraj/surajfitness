@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj Fitness Centre - Register</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="register-bg">
+
+    <section id="register">
+        <div class="register container">
+            <div class="register-container">
+                <div class="register-header">
+                    <h1 class="title">Register</h1>
+                </div>
+
+                <form action="index.html" id="register-form">
+                    <div class="form-control row">
+                        <div class="form-group pr-md-1">
+                            <label for="">First Name</label>
+                            <input type="text" name="fname" id="fname" autocomplete="off">
+                            <small class="small"></small>
+                        </div>
+                        <div class="form-group pl-md-1">
+                            <label for="">Last Name</label>
+                            <input type="text" name="lname" id="lname" autocomplete="off">
+                            <small class="small"></small>
+                        </div>
+                    </div>
+                    <div class="form-control ">
+                        <label for="">Username</label>
+                        <input type="text" name="username" id="username" autocomplete="off">
+                        <small class="small"></small>
+                    </div>
+                    <div class="form-control ">
+                        <label for="">Email</label>
+                        <input type="email" name="email" id="email" autocomplete="off">
+                        <small class="small"></small>
+                    </div>
+
+                    <div class="form-control row">
+                        <div class="form-group pr-md-1">
+                            <label for="">Password</label>
+                            <input type="password" name="password" id="password" autocomplete="off">
+                            <small class="small"></small>
+                        </div>
+                        <div class="form-group pl-md-1">
+                            <label for="">Confirm Password</label>
+                            <input type="password" name="cpassword" id="cpassword" autocomplete="off">
+                            <small class="small"></small>
+                        </div>
+                    </div>
+
+                    <div class="form-control">
+                        <input type="submit" class="btn btn-block btn-primary mt-2 py-2" value="Submit">
+                    </div>
+                    <hr class="my-1">
+                    <div class="form-control row text-center">
+                        <div class="form-group pr-md-1">
+                            <a type="button" class="btn btn-block btn-google mt-2 py-2">
+                                <i class="fab fa-google mr-1"></i>Register with Google
+                            </a>
+                        </div>
+                        <div class="form-group pl-md-1">
+                            <a type="button" class="btn btn-facebook btn-block mt-2 py-2">
+                                <i class="fab fa-facebook-f mr-1"></i>Register with Facebook
+                            </a>
+                        </div>
+                    </div>
+                    <hr class="my-1">
+
+                    <div class="form-links">
+                        <a href="/login.html">
+                            Already have an account ? Log in
+                        </a>
+                        <a href="/forgot-password.html">
+                            Forgot password ?
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
